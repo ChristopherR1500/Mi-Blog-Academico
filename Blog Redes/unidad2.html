@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 2 - En Construcción</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        .section {
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #333;
+            border-bottom: 3px solid #ffcc00;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .section img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 300px;
+            height: auto;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .construction {
+            color: #555;
+            font-size: 22px;
+            margin-top: 20px;
+            animation: blink 1.5s infinite;
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background: #222;
+            color: white;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Unidad 2 - Próximamente</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="unidad1.html">Unidad 1</a></li>
+                <li><a href="unidad2.html">Unidad 2</a></li>
+                <li><a href="proyecto.html">Proyecto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <h2>¡Esta sección está en construcción!</h2>
+        <p class="construction">🛠️ Estamos trabajando para traerte el mejor contenido... ¡Vuelve pronto! 🛠️</p>
+        <img src="fotos/construccion.png" alt="Página en construcción">
+    </section>
+
+    <footer>
+        <p>Contacto: <a href="mailto:chrisrojas843@gmail.com">Enviar correo</a></p>
+        <p>Visitas: <span id="contador">0</span></p>
+    </footer>
+</body>
+</html>

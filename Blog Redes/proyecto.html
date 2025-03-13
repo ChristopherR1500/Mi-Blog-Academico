@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto LI-FI</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        .section {
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            text-align: center;
+        }
+
+        .section h2 {
+            color: #333;
+            border-bottom: 3px solid #ffcc00;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        .section img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 300px;
+            height: auto;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background: #222;
+            color: white;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto: LI-FI - Comunicación a través de la luz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="unidad1.html">Unidad 1</a></li>
+                <li><a href="unidad2.html">Unidad 2</a></li>
+                <li><a href="proyecto.html">Proyecto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <h2>¿Qué es el LI-FI?</h2>
+        <p>LI-FI (Light Fidelity) es una tecnología innovadora que utiliza la luz visible para transmitir datos de manera inalámbrica. A diferencia del Wi-Fi, que emplea ondas de radio, LI-FI aprovecha las variaciones en la intensidad de la luz LED, invisibles para el ojo humano, para codificar y enviar información a dispositivos receptores. Esta tecnología promete velocidades más rápidas, mayor seguridad y una menor congestión de las frecuencias tradicionales.</p>
+    </section>
+
+    <section class="section">
+        <h2>Objetivo del Proyecto</h2>
+        <p>El objetivo de este proyecto es construir un sistema básico de comunicación LI-FI, donde se logre la transmisión de datos simples, como texto, a través de la luz. Se busca demostrar cómo la luz LED puede ser modulada para transferir información y ser interpretada por un receptor fotosensible.</p>
+    </section>
+
+    <section class="section">
+        <h2>Pasos del Proyecto</h2>
+        <ol>
+            <li><strong>Investigación:</strong> Comprender cómo funciona la transmisión de datos por luz y sus ventajas.</li>
+            <li><strong>Materiales:</strong> LED, fotodiodo, Arduino (o microcontrolador), cables y protoboard.</li>
+            <li><strong>Montaje:</strong> Conectar el LED al transmisor y el fotodiodo al receptor.</li>
+            <li><strong>Programación:</strong> Escribir el código para modular la luz y decodificar los datos en el receptor.</li>
+            <li><strong>Pruebas:</strong> Enviar texto o datos simples y verificar la transmisión a través de la luz.</li>
+        </ol>
+    </section>
+
+    <section class="section">
+        <h2>Galería del Proyecto</h2>
+        <p>Agrega tus fotos del proyecto aquí:</p>
+        <img src="C:\Users\chris\OneDrive\Documentos\Blog Redes\fotos\lifi1.jpg" alt="Proyecto LI-FI - Foto 1">
+        <img src="C:\Users\chris\OneDrive\Documentos\Blog Redes\fotos\lifi2.png" alt="Proyecto LI-FI - Foto 2">
+        <img src="C:\Users\chris\OneDrive\Documentos\Blog Redes\fotos\lifi3.png" alt="Proyecto LI-FI - Foto 3">
+    </section>
+
+    <footer>
+        <p>Contacto: <a href="mailto:chrisrojas843@gmail.com">Enviar correo</a></p>
+        <p>Visitas: <span id="contador">0</span></p>
+    </footer>
+</body>
+</html>
+
